@@ -28,7 +28,7 @@ Then we'll point you to some next steps you can take, including trying out colla
 We provide [a repo](https://github.com/ambassadorlabs/telepresence-local-quickstart) that sets up a local cluster for you with the in-cluster Telepresence components and a sample app already installed. It does not need `sudo` or `Run as Administrator` privileges.
 
 {% tabs %}
-{% tab title="GNU/Linux" %}
+{% tab title="GNU/Linux" icon="linux" %}
 ```shell
 # Clone the repo with submodules
 git clone https://github.com/ambassadorlabs/telepresence-local-quickstart.git --recurse-submodules
@@ -41,7 +41,7 @@ cd telepresence-local-quickstart
 ```
 {% endtab %}
 
-{% tab title="macOS" %}
+{% tab title="macOS" icon="apple" %}
 ```shell
 # Clone the repo with submodules
 git clone https://github.com/ambassadorlabs/telepresence-local-quickstart.git --recurse-submodules
@@ -54,7 +54,7 @@ cd telepresence-local-quickstart
 ```
 {% endtab %}
 
-{% tab title="Windows" %}
+{% tab title="Windows" icon="windows" %}
 ```
 # Clone the repo with submodules
 git clone https://github.com/ambassadorlabs/telepresence-local-quickstart.git --recurse-submodules
@@ -87,9 +87,7 @@ The first time you run a Telepresence command you will be prompted to create an 
     Connected to context default, namespace default (https://<cluster-public-IP>)
     ```
 
-    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info">
-      <p>macOS users: If you receive an error when running Telepresence that the developer cannot be verified, open <strong>System Preferences → Security & Privacy → General</strong>. Click <strong>Open Anyway</strong> at the bottom to bypass the security block. Then retry the <code>telepresence connect</code> command.</p>
-    </div>
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>macOS users: If you receive an error when running Telepresence that the developer cannot be verified, open <strong>System Preferences → Security &#x26; Privacy → General</strong>. Click <strong>Open Anyway</strong> at the bottom to bypass the security block. Then retry the <code>telepresence connect</code> command.</p></div>
 2.  Now we'll test that Telepresence is working properly by accessing a service running in the cluster. Telepresence has merged your local IP routing tables and DNS resolution with the clusters, so you can talk to the cluster in its DNS language and to services on their cluster IP address.\
     Open up a browser and go to `http://verylargejavaservice.default:8080`. As you can see you've loaded up a dashboard showing the architecture of the sample app.
 
