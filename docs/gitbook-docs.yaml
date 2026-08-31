@@ -1,7 +1,4 @@
-# yaml-language-server: $schema=https://api.gitbook.com/gitbook-docs.yaml
 $schema: https://api.gitbook.com/gitbook-docs.yaml
-version: 1
-
 site:
   title: Gravitee Documentation
   structure:
@@ -14,87 +11,87 @@ site:
       children:
         - type: space
           key: space-apim-4-13
-          title: '4.13'
-          path: '4.13'
+          title: "4.13"
+          path: "4.13"
           default: true
           content:
             directory: ./apim/4.13
         - type: space
           key: space-apim-4-12
-          title: '4.12'
-          path: '4.12'
+          title: "4.12"
+          path: "4.12"
           content:
             directory: ./apim/4.12
         - type: space
           key: space-apim-4-11
-          title: '4.11'
-          path: '4.11'
+          title: "4.11"
+          path: "4.11"
           content:
             directory: ./apim/4.11
         - type: space
           key: space-apim-4-10
-          title: '4.10'
-          path: '4.10'
+          title: "4.10"
+          path: "4.10"
           content:
             directory: ./apim/4.10
         - type: space
           key: space-apim-4-9
-          title: '4.9'
-          path: '4.9'
+          title: "4.9"
+          path: "4.9"
           content:
             directory: ./apim/4.9
         - type: space
           key: space-apim-4-8
-          title: '4.8'
-          path: '4.8'
+          title: "4.8"
+          path: "4.8"
           content:
             directory: ./apim/4.8
         - type: space
           key: space-apim-4-7
-          title: '4.7'
-          path: '4.7'
+          title: "4.7"
+          path: "4.7"
           content:
             directory: ./apim/4.7
         - type: space
           key: space-apim-4-6
-          title: '4.6'
-          path: '4.6'
+          title: "4.6"
+          path: "4.6"
           content:
             directory: ./apim/4.6
         - type: space
           key: space-apim-4-5
-          title: '4.5'
-          path: '4.5'
+          title: "4.5"
+          path: "4.5"
           content:
             directory: ./apim/4.5
         - type: space
           key: space-apim-4-4
-          title: '4.4'
-          path: '4.4'
+          title: "4.4"
+          path: "4.4"
           content:
             directory: ./apim/4.4
         - type: space
           key: space-apim-4-3
-          title: '4.3'
-          path: '4.3'
+          title: "4.3"
+          path: "4.3"
           content:
             directory: ./apim/4.3
         - type: space
           key: space-apim-4-2
-          title: '4.2'
-          path: '4.2'
+          title: "4.2"
+          path: "4.2"
           content:
             directory: ./apim/4.2
         - type: space
           key: space-apim-4-1
-          title: '4.1'
-          path: '4.1'
+          title: "4.1"
+          path: "4.1"
           content:
             directory: ./apim/4.1
         - type: space
           key: space-apim-4-0
-          title: '4.0'
-          path: '4.0'
+          title: "4.0"
+          path: "4.0"
           content:
             directory: ./apim/4.0
     - type: section
@@ -105,87 +102,87 @@ site:
       children:
         - type: space
           key: space-am-4-13
-          title: '4.13'
-          path: '4.13'
+          title: "4.13"
+          path: "4.13"
           default: true
           content:
             directory: ./am/4.13
         - type: space
           key: space-am-4-12
-          title: '4.12'
-          path: '4.12'
+          title: "4.12"
+          path: "4.12"
           content:
             directory: ./am/4.12
         - type: space
           key: space-am-4-11
-          title: '4.11'
-          path: '4.11'
+          title: "4.11"
+          path: "4.11"
           content:
             directory: ./am/4.11
         - type: space
           key: space-am-4-10
-          title: '4.10'
-          path: '4.10'
+          title: "4.10"
+          path: "4.10"
           content:
             directory: ./am/4.10
         - type: space
           key: space-am-4-9
-          title: '4.9'
-          path: '4.9'
+          title: "4.9"
+          path: "4.9"
           content:
             directory: ./am/4.9
         - type: space
           key: space-am-4-8
-          title: '4.8'
-          path: '4.8'
+          title: "4.8"
+          path: "4.8"
           content:
             directory: ./am/4.8
         - type: space
           key: space-am-4-7
-          title: '4.7'
-          path: '4.7'
+          title: "4.7"
+          path: "4.7"
           content:
             directory: ./am/4.7
         - type: space
           key: space-am-4-6
-          title: '4.6'
-          path: '4.6'
+          title: "4.6"
+          path: "4.6"
           content:
             directory: ./am/4.6
         - type: space
           key: space-am-4-5
-          title: '4.5'
-          path: '4.5'
+          title: "4.5"
+          path: "4.5"
           content:
             directory: ./am/4.5
         - type: space
           key: space-am-4-4
-          title: '4.4'
-          path: '4.4'
+          title: "4.4"
+          path: "4.4"
           content:
             directory: ./am/4.4
         - type: space
           key: space-am-4-3
-          title: '4.3'
-          path: '4.3'
+          title: "4.3"
+          path: "4.3"
           content:
             directory: ./am/4.3
         - type: space
           key: space-am-4-2
-          title: '4.2'
-          path: '4.2'
+          title: "4.2"
+          path: "4.2"
           content:
             directory: ./am/4.2
         - type: space
           key: space-am-4-1
-          title: '4.1'
-          path: '4.1'
+          title: "4.1"
+          path: "4.1"
           content:
             directory: ./am/4.1
         - type: space
           key: space-am-4-0
-          title: '4.0'
-          path: '4.0'
+          title: "4.0"
+          path: "4.0"
           content:
             directory: ./am/4.0
     - type: section
@@ -196,69 +193,69 @@ site:
       children:
         - type: space
           key: space-gko-4-13
-          title: '4.13'
-          path: '4.13'
+          title: "4.13"
+          path: "4.13"
           default: true
           content:
             directory: ./gko/4.13
         - type: space
           key: space-gko-4-12
-          title: '4.12'
-          path: '4.12'
+          title: "4.12"
+          path: "4.12"
           content:
             directory: ./gko/4.12
         - type: space
           key: space-gko-4-11
-          title: '4.11'
-          path: '4.11'
+          title: "4.11"
+          path: "4.11"
           content:
             directory: ./gko/4.11
         - type: space
           key: space-gko-4-10
-          title: '4.10'
-          path: '4.10'
+          title: "4.10"
+          path: "4.10"
           content:
             directory: ./gko/4.10
         - type: space
           key: space-gko-4-9
-          title: '4.9'
-          path: '4.9'
+          title: "4.9"
+          path: "4.9"
           content:
             directory: ./gko/4.9
         - type: space
           key: space-gko-4-8
-          title: '4.8'
-          path: '4.8'
+          title: "4.8"
+          path: "4.8"
           content:
             directory: ./gko/4.8
         - type: space
           key: space-gko-4-7
-          title: '4.7'
-          path: '4.7'
+          title: "4.7"
+          path: "4.7"
           content:
             directory: ./gko/4.7
         - type: space
           key: space-gko-4-6
-          title: '4.6'
-          path: '4.6'
+          title: "4.6"
+          path: "4.6"
           content:
             directory: ./gko/4.6
         - type: space
           key: space-gko-4-5
-          title: '4.5'
-          path: '4.5'
+          title: "4.5"
+          path: "4.5"
           content:
             directory: ./gko/4.5
         - type: space
           key: space-gko-4-4
-          title: '4.4'
-          path: '4.4'
+          title: "4.4"
+          path: "4.4"
           content:
             directory: ./gko/4.4
         - type: space
           key: space-gko-4-3
-          title: '4.3'
-          path: '4.3'
+          title: "4.3"
+          path: "4.3"
           content:
             directory: ./gko/4.3
     - type: section
@@ -269,15 +266,15 @@ site:
       children:
         - type: space
           key: space-gamma-4-13
-          title: '4.13'
-          path: '4.13'
+          title: "4.13"
+          path: "4.13"
           default: true
           content:
             directory: ./gamma/4.13
         - type: space
           key: space-gamma-4-12
-          title: '4.12'
-          path: '4.12'
+          title: "4.12"
+          path: "4.12"
           content:
             directory: ./gamma/4.12
     - type: section
