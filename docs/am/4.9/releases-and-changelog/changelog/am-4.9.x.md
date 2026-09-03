@@ -1,0 +1,622 @@
+---
+description: >-
+  This page contains the changelog entries for AM 4.9.0 and any future minor or
+  patch AM 4.9.x releases
+---
+
+# AM 4.9.x
+
+## Gravitee Access Management 4.9.30 - August 25, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Other**
+
+* Create setting to disable the reporter indexes management [#11712](https://github.com/gravitee-io/issues/issues/11712)
+* DefaultReporterUpgrader [#11716](https://github.com/gravitee-io/issues/issues/11716)
+* ClaimRequest mapping issue [#11736](https://github.com/gravitee-io/issues/issues/11736)
+* msg() expressions not resolved in "From name" of the MFA Challenge email template [#11756](https://github.com/gravitee-io/issues/issues/11756)
+
+</details>
+
+## Gravitee Access Management 4.9.29 - August 7, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Management API**
+
+* Permission keys cache problem [#11700](https://github.com/gravitee-io/issues/issues/11700)
+
+**Console**
+
+* Default Scopes and Allowed Scopes are not consistently saved during OpenID Client Registration configuration [#11684](https://github.com/gravitee-io/issues/issues/11684)
+
+</details>
+
+## Gravitee Access Management 4.9.28 - July 30, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* User is not deleted after API deletion [#11676](https://github.com/gravitee-io/issues/issues/11676)
+
+</details>
+
+## Gravitee Access Management 4.9.27 - July 24, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* Not closing webClient for OIDC idp [#11632](https://github.com/gravitee-io/issues/issues/11632)
+* SCIM user create returns 500 on concurrent duplicate username [#11664](https://github.com/gravitee-io/issues/issues/11664)
+
+**Other**
+
+* VHost domain case insensitive [#11389](https://github.com/gravitee-io/issues/issues/11389)
+* Cap the maxNumber of thread when Executors.newCachedThreadPool() is used [#11608](https://github.com/gravitee-io/issues/issues/11608)
+* character '&' break the URLParameterUtils [#11618](https://github.com/gravitee-io/issues/issues/11618)
+
+</details>
+
+## Gravitee Access Management 4.9.26 - July 13, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Management API**
+
+* Application Flows are not accessible for APPLICATION\_OWNER roles [#11592](https://github.com/gravitee-io/issues/issues/11592)
+
+**Other**
+
+* Mutualize hmac and noop Certificates across domains [#11582](https://github.com/gravitee-io/issues/issues/11582)
+* Partial PATCHes of login settings cause disabled settings to be disabled in subsequent updates [#11600](https://github.com/gravitee-io/issues/issues/11600)
+
+</details>
+
+## Gravitee Access Management 4.9.25 - June 26, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Other**
+
+* MAPI doesn't start when HTTP idp is invalid [#11561](https://github.com/gravitee-io/issues/issues/11561)
+* User search error trying to use equality filters SCIM 2.0 query syntax (filterCriteriaParser) [#11564](https://github.com/gravitee-io/issues/issues/11564)
+
+</details>
+
+## Gravitee Access Management 4.9.24 - June 16, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* OIDC IdP error response (query string) not propagated to client redirect URI in Auth Code PKCE flow [#11499](https://github.com/gravitee-io/issues/issues/11499)
+
+**Other**
+
+* Search Domain doesn't work with '\_' [#11508](https://github.com/gravitee-io/issues/issues/11508)
+* OIDC login fails with SignatureException due to kid: "default" collision between System and Own certificates [#11509](https://github.com/gravitee-io/issues/issues/11509)
+* Filter out empty scopes in auth request [#11523](https://github.com/gravitee-io/issues/issues/11523)
+* Missing user.groups property in EL [#11524](https://github.com/gravitee-io/issues/issues/11524)
+* Add userId/username to error SCIM response [#11539](https://github.com/gravitee-io/issues/issues/11539)
+* Extension Grant is not managing PS256 [#11542](https://github.com/gravitee-io/issues/issues/11542)
+
+</details>
+
+## Gravitee Access Management 4.9.23 - June 8, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Other**
+
+* Kafka Client OAUTH not working [#11501](https://github.com/gravitee-io/issues/issues/11501)
+
+</details>
+
+## Gravitee Access Management 4.9.22 - June 1, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* TokenValidation should rely on the KID [#11383](https://github.com/gravitee-io/issues/issues/11383)
+* Addition of ClientId in the Gravitee AccessLog [#11471](https://github.com/gravitee-io/issues/issues/11471)
+
+</details>
+
+## Gravitee Access Management 4.9.21 - May 25, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Other**
+
+* UI Crash on Device Deletion [#11446](https://github.com/gravitee-io/issues/issues/11446)
+
+</details>
+
+## Gravitee Access Management 4.9.20 - May 15, 2026
+
+<details>
+
+<summary>What's new !</summary>
+
+\=**What's new!**
+
+* UserProfile claims extension
+
+</details>
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Other**
+
+* Improve CPU consumption with thousand of domain [#11411](https://github.com/gravitee-io/issues/issues/11411)
+* Addition of access log for the Gateway [#11415](https://github.com/gravitee-io/issues/issues/11415)
+* 'Master' attribute value is inconsistent when listing domains vs retrieving a specific domain [#11422](https://github.com/gravitee-io/issues/issues/11422)
+* SCIM PUT/PATCH switches internal flag to false [#11425](https://github.com/gravitee-io/issues/issues/11425)
+
+</details>
+
+## Gravitee Access Management 4.9.19 - May 1, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Other**
+
+* MFA : Sent verification code to active/enrolled factor [#11318](https://github.com/gravitee-io/issues/issues/11318)
+* VHost with path "/" throws ArrayIndexOutOfBoundsException [#11358](https://github.com/gravitee-io/issues/issues/11358)
+* SMTP resource implict authentication [#11372](https://github.com/gravitee-io/issues/issues/11372)
+* IdP Whitelist: Domain validation is case-sensitive [#11386](https://github.com/gravitee-io/issues/issues/11386)
+
+</details>
+
+## Gravitee Access Management 4.9.18 - April 17, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* DCR-created applications are now able to inherit domain flows by default [#11271](https://github.com/gravitee-io/issues/issues/11271)
+
+**Other**
+
+* Resolved issue with MFA Enrollment Stuck in PENDING\_ACTIVATION [#11245](https://github.com/gravitee-io/issues/issues/11245)
+* User edit form now displays all custom fields within additional information [#11333](https://github.com/gravitee-io/issues/issues/11333)
+
+**CVE**
+
+* Remediates: CVE-2026-1605, CVE-2026-33870
+
+</details>
+
+## Gravitee Access Management 4.9.17 - April 9, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* EnrichAuthContext ignored when session is active [#11301](https://github.com/gravitee-io/issues/issues/11301)
+
+**Management API**
+
+* Improve list domain response time [#11315](https://github.com/gravitee-io/issues/issues/11315)
+
+**Console**
+
+* User History - event names are truncated [#11290](https://github.com/gravitee-io/issues/issues/11290)
+* Re: Audit Logs - Column "Target" is truncated [#11291](https://github.com/gravitee-io/issues/issues/11291)
+
+**Other**
+
+* Force reset password not prompting user to reset password during login [#11298](https://github.com/gravitee-io/issues/issues/11298)
+* Force ordering for application search [#11309](https://github.com/gravitee-io/issues/issues/11309)
+
+</details>
+
+## Gravitee Access Management 4.9.16 - April 3, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* User cannot signin due to EmailFactor issue [#11304](https://github.com/gravitee-io/issues/issues/11304)
+
+**Other**
+
+* Create index based on timestamp for audit logs. [#11258](https://github.com/gravitee-io/issues/issues/11258)
+* Error after rollback when MFA flow exist [#11282](https://github.com/gravitee-io/issues/issues/11282)
+* Optimize resource for Bulk Email management [#11283](https://github.com/gravitee-io/issues/issues/11283)
+
+</details>
+
+## Gravitee Access Management 4.9.15 - March 27, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* Upgrade avro dependency [#11228](https://github.com/gravitee-io/issues/issues/11228)
+* Improve logging of AWS HSM plugin [#11240](https://github.com/gravitee-io/issues/issues/11240)
+* Limit the emailLeaseAcquiring attempt for email bulk [#11260](https://github.com/gravitee-io/issues/issues/11260)
+
+**Management API**
+
+* Fix API breaking change on SMTP resource update [#11244](https://github.com/gravitee-io/issues/issues/11244)
+
+</details>
+
+## Gravitee Access Management 4.9.14 - March 13, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* Limit the number of Thread to process Bulk Email [#11213](https://github.com/gravitee-io/issues/issues/11213)
+
+**Console**
+
+* Audit Logs - Column "Target" is truncated [#11200](https://github.com/gravitee-io/issues/issues/11200)
+
+**Management API**
+
+* IDP - Incorrect status error code for PUT request [#8917](https://github.com/gravitee-io/issues/issues/8917)
+
+**Other**
+
+* Out of Memory Issues caused by LD\_PRELOAD [#11232](https://github.com/gravitee-io/issues/issues/11232)
+* JDBC: sslMode=require without sslRootCert [#11235](https://github.com/gravitee-io/issues/issues/11235)
+
+</details>
+
+## Gravitee Access Management 4.9.13 - February 27, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Other**
+
+* SMTP Connection with OAuth2 Authentication [#11012](https://github.com/gravitee-io/issues/issues/11012)
+* Email BULK processing - context not closed properly [#11199](https://github.com/gravitee-io/issues/issues/11199)
+
+</details>
+
+## Gravitee Access Management 4.9.12 - February 23, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* Improve reliability of email emission during SCIM Bulk [#11150](https://github.com/gravitee-io/issues/issues/11150)
+
+**Other**
+
+* Update Facebook IdP to latest Graph API [#11162](https://github.com/gravitee-io/issues/issues/11162)
+* \[DCR] Application fails to inherit Access Token validity from AM Templates [#11178](https://github.com/gravitee-io/issues/issues/11178)
+
+</details>
+
+## Gravitee Access Management 4.9.11 - February 16, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* Manage backpressure on email service for SCIM Bulk [#11138](https://github.com/gravitee-io/issues/issues/11138)
+
+**Management API**
+
+* Fixed 0 value for page field in User's search response [#11125](https://github.com/gravitee-io/issues/issues/11125)
+
+**Console**
+
+* Event name values in the audit log filter are truncated [#11146](https://github.com/gravitee-io/issues/issues/11146)
+
+**Other**
+
+* Docker - SMTP - Basic Auth - Env vars in uppercase stopping emails being sent [#11089](https://github.com/gravitee-io/issues/issues/11089)
+* SCIM Bulk: use concatMapEager with configurable maxConcurrency [#11100](https://github.com/gravitee-io/issues/issues/11100)
+* Send email asynchronously on PreRegistration [#11106](https://github.com/gravitee-io/issues/issues/11106)
+
+</details>
+
+## Gravitee Access Management 4.9.10 - January 29, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Other**
+
+* DCR: Cannot Renew Client Secret [#11058](https://github.com/gravitee-io/issues/issues/11058)
+* Issue with Consent Persistence after initial denial [#11066](https://github.com/gravitee-io/issues/issues/11066)
+* OIDC IdP: Add support for response\_mode=form\_post (Azure AD long redirect issue) [#11075](https://github.com/gravitee-io/issues/issues/11075)
+* OpenID - id\_token flow - Cannot invoke String.indexOf%28String because "s" is null [#11079](https://github.com/gravitee-io/issues/issues/11079)
+* Clean authFlowVer in the session [#11081](https://github.com/gravitee-io/issues/issues/11081)
+
+</details>
+
+## Gravitee Access Management 4.9.9 - January 19, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* Retrieve clientID from context for AccountFactorsEndpointHandler::sendChallenge [#11023](https://github.com/gravitee-io/issues/issues/11023)
+
+**Other**
+
+* \[Helm] Dataplane volume are missing for JDBC backend [#11008](https://github.com/gravitee-io/issues/issues/11008)
+* Unable to sign in when username contains Capital [#11015](https://github.com/gravitee-io/issues/issues/11015)
+* Create Index on ScopeApproval [#11020](https://github.com/gravitee-io/issues/issues/11020)
+* ErrorDescription encoded in the errorHash [#11054](https://github.com/gravitee-io/issues/issues/11054)
+
+</details>
+
+## Gravitee Access Management 4.9.8 - January 2, 2026
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Other**
+
+* AuthenticationFlow: missing transactionId [#11033](https://github.com/gravitee-io/issues/issues/11033)
+* LDAP provider role mapping no longer working [#11038](https://github.com/gravitee-io/issues/issues/11038)
+* Unable to add multiple virtual hosts in Gravitee AM [#11048](https://github.com/gravitee-io/issues/issues/11048)
+
+</details>
+
+## Gravitee Access Management 4.9.7 - December 19, 2025
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Other**
+
+* Apply jemalloc to dockerfile for Gateway/MAPI (4.7+) [#10991](https://github.com/gravitee-io/issues/issues/10991)
+* Audit logs output incorrect JSON [#11000](https://github.com/gravitee-io/issues/issues/11000)
+* Introduce setting to avoid fallback on HMAC [#11018](https://github.com/gravitee-io/issues/issues/11018)
+* The default am gateway helm chart does not include mappings for custom purge settings. [#11024](https://github.com/gravitee-io/issues/issues/11024)
+* Enhance logging in gateway consent failure handler [#11025](https://github.com/gravitee-io/issues/issues/11025)
+* MFA challenge is always presented when session is expired and Remember Me cookie bypasses login [#11029](https://github.com/gravitee-io/issues/issues/11029)
+
+</details>
+
+## Gravitee Access Management 4.9.6 - December 10, 2025
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Other**
+
+* Specify application on User preRegistration using SCIM [#11003](https://github.com/gravitee-io/issues/issues/11003)
+* Fix docker image size [#11016](https://github.com/gravitee-io/issues/issues/11016)
+
+</details>
+
+## Gravitee Access Management 4.9.5 - December 5, 2025
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* MFA RateLimit doesn't work when MFA Challenge policy is define at domain level [#10998](https://github.com/gravitee-io/issues/issues/10998)
+
+**Management API**
+
+* WebAuthn - credentials are not removed when a user is deleted [#10990](https://github.com/gravitee-io/issues/issues/10990)
+
+**Other**
+
+* The default helm chart currently does not reflect our suggested \{{maxAcquireTime\}} and \{{maxCreateConnectionTime\}} values. [#10983](https://github.com/gravitee-io/issues/issues/10983)
+* Implement retry on HSM sign/verify [#10992](https://github.com/gravitee-io/issues/issues/10992)
+* Allow implicit authentication on CloudHSM plugin [#10996](https://github.com/gravitee-io/issues/issues/10996)
+* Session clean up on Registration & resetPassword confirmation [#10999](https://github.com/gravitee-io/issues/issues/10999)
+* Email notification fails for Certificate expiry [#11007](https://github.com/gravitee-io/issues/issues/11007)
+
+</details>
+
+## Gravitee Access Management 4.9.4 - November 21, 2025
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* JSON Logging for AM Token Endpoint [#10943](https://github.com/gravitee-io/issues/issues/10943)
+* Filter CLIENT\_AUTHENTICATION success audit logs [#10954](https://github.com/gravitee-io/issues/issues/10954)
+* translate email from name [#10958](https://github.com/gravitee-io/issues/issues/10958)
+* Vertx eventLoop ThreadBlocked when HSM plugin is used [#10969](https://github.com/gravitee-io/issues/issues/10969)
+
+**Management API**
+
+* Error creating identities in 4.7.X [#10940](https://github.com/gravitee-io/issues/issues/10940)
+
+**Other**
+
+* Vertx eventLoop ThreadBlocked with ExtensionGrant [#10968](https://github.com/gravitee-io/issues/issues/10968)
+* Update docker-compose to be able to run without changes [#10972](https://github.com/gravitee-io/issues/issues/10972)
+* UI broken for Endpoints when user assigned role to application [#10976](https://github.com/gravitee-io/issues/issues/10976)
+* STS Client is not closed in HSM implementation [#10977](https://github.com/gravitee-io/issues/issues/10977)
+* Unable to update Virtual host [#10979](https://github.com/gravitee-io/issues/issues/10979)
+
+</details>
+
+## Gravitee Access Management 4.9.3 - November 7, 2025
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* VertX Thread Blocked when JWKS is loaded [#10932](https://github.com/gravitee-io/issues/issues/10932)
+* Upgrade Spring Data R2DBC [#10936](https://github.com/gravitee-io/issues/issues/10936)
+* Improve Thread Management for RDBMS backend [#10938](https://github.com/gravitee-io/issues/issues/10938)
+
+**Other**
+
+* Reduce log verbosity on MFA validation failure [#10903](https://github.com/gravitee-io/issues/issues/10903)
+
+</details>
+
+## Gravitee Access Management 4.9.2 - October 30, 2025
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* StackOverflowError when logging out [#10928](https://github.com/gravitee-io/issues/issues/10928)
+
+**Console**
+
+* Unable to delete a user when the IDP has been removed [#10915](https://github.com/gravitee-io/issues/issues/10915)
+
+</details>
+
+## Gravitee Access Management 4.9.1 - October 24, 2025
+
+<details>
+
+<summary>Bug fixes</summary>
+
+**Gateway**
+
+* Account's password is expired error when using account linking [#10851](https://github.com/gravitee-io/issues/issues/10851)
+* Password policy applies to LDAP IdP [#10874](https://github.com/gravitee-io/issues/issues/10874)
+* Fix performance degradation introduced in 4.9.0 [#10876](https://github.com/gravitee-io/issues/issues/10876)
+* Add Domain object to EL context for HTTP IDP [#10881](https://github.com/gravitee-io/issues/issues/10881)
+
+**Management API**
+
+* Domain deletion does not remove all entities [#10899](https://github.com/gravitee-io/issues/issues/10899)
+
+**Console**
+
+* Client secrets - Renew - Wording needs be altered [#10891](https://github.com/gravitee-io/issues/issues/10891)
+
+**Other**
+
+* Support posix groups in LDAP mappings [#10848](https://github.com/gravitee-io/issues/issues/10848)
+
+</details>
+
+#### Gravitee Access Management 4.9 - Oct 9, 2025 <a href="#gravitee-access-management-4.8" id="gravitee-access-management-4.8"></a>
+
+<details>
+
+<summary>What's new</summary>
+
+#### OpenID provider improvement
+
+The [OpenID identity provider ](../../guides/identity-providers/social-identity-providers/openid-connect.md)has been updated to support the `application/jwt` content type at the [UserInfo Endpoint](https://openid.net/specs/openid-connect-core-1_0.html#UserInfoResponse).
+
+The system accepts only signed JWT tokens. Signature validation is handled by the [Public Key Resolver](../../guides/identity-providers/social-identity-providers/openid-connect.md#public-key-resolver) defined in the provider's configuration.
+
+#### Support schema with PostgreSQL backend
+
+You can now specify the [schema](https://www.postgresql.org/docs/current/ddl-schemas.html) when Access Management is configured with a PostgreSQL backend. For more information, see the [repositories](../../getting-started/configuration/configure-repositories.md#jdbc) section.
+
+#### Rate Limit policy
+
+Access Management now offers a Rate Limit policy that is functionally identical to the Rate Limit policy in API Management. You can use Gravitee Expression Language to enforce a limit per client ID.
+
+#### Audit logs
+
+A new audit log is generated for multi-factor authentication (MFA). When a user selects the "remember device" option during the MFA challenge phase, an MFA\_REMEMBER\_DEVICE audit [event](../../guides/audit-trail.md#event-types) is created.
+
+The improved MongoDB audit log implementation now uses secondary nodes for search requests. This behavior is [configurable](../../getting-started/configuration/configure-reporters.md#mongodb-reporter) in the `gravitee.yaml` of the Management API.
+
+The [File Reporter](../../getting-started/configuration/configure-reporters.md#file-reporter) implementation now provides a retention duration for files. This retention time can be configured at the platform level using the `gravitee.yml` file, or directly in the UI per reporter instance.
+
+#### Extension Grant improvement
+
+The [Extension Grant](../../guides/auth-protocols/oauth-2.0/extension-grants.md) plugin now supports using a JWKS\_URL to retrieve the public key that processes the `assertion` parameter.
+
+#### Events Retention
+
+Access Management version 4.9 implements a 90-day retention policy on the events table. To achieve this, a TTL (Time-to-Live) index is created for installations that use a MongoDB backend. For installations that use an RDBMS backend, a purge service runs daily, at 11:00 PM by default.
+
+#### Prompt password changed when password is expired
+
+A new option is available to require users to reset their passwords after a configurable time period has elapsed since their last reset. Upon successful login, if the password has expired, users are immediately prompted to set a new password before continuing the login flow. See the [force reset password page](../../guides/login/force-reset-password-on-expiration.md) for more details.
+
+</details>
+
+<details>
+
+<summary>Breaking Changes</summary>
+
+**MongoDB search for user profile**
+
+Starting with AM versions 4.5.20, 4.6.14, 4.7.8, and 4.8.1, GitHub issue [10573](https://github.com/gravitee-io/issues/issues/10573) was implemented to mitigate performance problems with user search requests on MongoDB. This was achieved by introducing a new option to disable case-insensitive regex search when the SCIM operators `sw`, `ew` or `co` are used.
+
+In version 4.9.0, this option is enabled by default, making MongoDB queries for SCIM and user searches on the Management API case-sensitive. To revert to the previous behavior of case-insensitive searches, you must explicitly configure this option in the `gravitee.yaml` file:
+
+```
+legacy:
+  mongodb:
+    regexCaseInsensitive: true
+```
+
+Alternatively, you can specify this option as an environment variable:
+
+```
+gravitee_legacy_mongodb_regexCaseInsensitive=true
+```
+
+**Resource HTTP Factor**
+
+The version 4.0 of the resource plugin [gravitee-am-resource-http-factor](https://download.gravitee.io/#graviteeio-ee/am/plugins/resources/gravitee-am-resource-http-factor/) has been released. This version requires AM 4.9.0 or later. The version 3.0 of the resource http factor plugin remains compatible with AM 4.9.0.
+
+</details>
