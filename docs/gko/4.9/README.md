@@ -1,5 +1,5 @@
 ---
-description: Overview of GKO.
+description: Overview of GKO
 ---
 
 # Introduction
