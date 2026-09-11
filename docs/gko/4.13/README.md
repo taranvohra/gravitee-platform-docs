@@ -1,7 +1,3 @@
----
-icon: person-waving
----
-
 # Introduction
 
 ## Overview
